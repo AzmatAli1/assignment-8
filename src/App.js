@@ -1,11 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header/Header';
+import Shop from './Shop/Shop';
 
 function App() {
   return (
     <div className="App">
-    <h1>purchase Products</h1>
-    <h3>Choose Only 4 Items</h3>
+      <Header></Header>
+      <Shop></Shop>
+    
     </div>
   );
 }
