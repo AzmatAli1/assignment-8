@@ -1,0 +1,36 @@
+.order-summary{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+}
+.cart{
+    position: sticky;
+    top: 0;
+}
+p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+.cart-shop{
+    color: green;
+    margin-top: 10px;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 20%;
+    font-size: 15px;
+    border-radius: 0px 0px 6px 6px;
+    font-weight: 200;
+}
+
+.cart-choice{
+    color: blue;
+    margin-top: 10px;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 20%;
+    font-size: 15px;
+    border-radius: 0px 0px 6px 6px;
+    font-weight: 200;
+}

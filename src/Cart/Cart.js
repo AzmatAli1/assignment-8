@@ -1,9 +1,13 @@
 import React from 'react';
-
-const Cart = () => {
+import './Cart.css'
+const Cart = ({cart}) => {
     return (
-        <div>
+        <div className='cart'>
+            <p className='order-summary'>Order Summary</p>
             
+             <p>Selected Items: {cart.length} </p>
+             <button className='cart-shop'>CHOOSE 1 FOR ME</button>
+             <button className='cart-choice'>CHOOSE AGAIN </button>
         </div>
     );
 };
