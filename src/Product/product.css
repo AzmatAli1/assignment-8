@@ -38,11 +38,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: -8px;
+    margin-left: 0px;
 
 }
 .btn-text{
-    margin-right:auto;
+    margin-right: 10px;
+    font-size: 20px;
+    text-decoration-color: aqua;
 }
 .btn-cart:hover{
    background-color: yellowgreen; 
